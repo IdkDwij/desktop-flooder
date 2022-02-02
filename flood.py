@@ -1,5 +1,5 @@
-import random
 import threading
+import random
 
 
 def makefile():
@@ -16,5 +16,3 @@ while threads >= 0:
     thread = threading.Thread(target=makefile())
     thread.start()
     threads -= 1
-
-input('test')
